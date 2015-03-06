@@ -11,7 +11,11 @@ public class BarraTituloTagLib extends TagSupport {
 	private static final long serialVersionUID = 1L;
 
 	private String valor;
-	
+
+	public void setValor(String valor) {
+		this.valor = valor;
+	}
+
 	private static final String HTML
 	= "<div style=\"padding: 10px; color: #fff; background: #000;\">" +
 	"<h1>{0}</h1>" +

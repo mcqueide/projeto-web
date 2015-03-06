@@ -12,6 +12,7 @@
 <body>
 
 	<treinamento:titulo valor="Cadastro de cliente"></treinamento:titulo>
+	<h1>Título</h1>
 
 	<%
 		Date dataAtual = (Date) request.getAttribute("dataAtual");
