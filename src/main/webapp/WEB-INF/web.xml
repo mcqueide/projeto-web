@@ -9,5 +9,12 @@
 	<!-- <servlet> <servlet-name>UglyServlet</servlet-name> <servlet-class>la.foton.treinamento.servlet.UglyServlet</servlet-class> 
 		</servlet> <servlet-mapping> <servlet-name>UglyServlet</servlet-name> <url-pattern>/ugly</url-pattern> 
 		</servlet-mapping> -->
+		
+	<jsp-config>
+		<taglib>
+			<taglib-uri>http://www.foton.la/treinamento.tld</taglib-uri>
+			<taglib-location>WEB-INFO/treinamento.tld</taglib-location>
+		</taglib>
+	</jsp-config>
 
 </web-app>

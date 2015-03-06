@@ -12,7 +12,7 @@
 
 	<tag>
 		<name>titulo</name>
-		<tagclass></tagclass>
+		<tagclass>la.foton.treinamento.taglig.BarraTituloTagLib</tagclass>
 		<info>Renderiza barra de títulos</info>
 		<attribute>
 			<name>valor</name>
